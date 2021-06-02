@@ -1,0 +1,106 @@
+body {
+    background-color:#d3d3d3 ;
+    font-family: sans-serif, 'Courier New', Courier, monospace;
+}
+
+h1{
+   
+    font-size: 40px;
+    border-top: 2px solid #920f0f;
+    border-bottom: 2px solid #920f0f;
+    margin: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem 0;
+
+}
+li {
+    display: inline;
+}
+
+hr {
+    color: black;
+    font-weight: bold;
+}
+.ligne-de-titre {
+    font-weight: 10px;
+    color: #9d2727;
+}
+
+h2{
+    font-size: 20px;
+}
+
+h1,h2,div {
+    text-align: center;
+}
+h1,h2,h3 {
+    font-weight: bold;
+    font-family: oswald, sans-serif, 'Courier New', Courier, monospace;
+
+}
+strong {
+    font-weight: bold;
+}
+h3{
+    font-weight: bold;
+    color:#8f0a0a ;
+}
+.intro {
+    text-align: left;
+}
+
+.diffusion-serie {
+    text-align: center;
+    font-style: italic;
+    font-size: x-small;
+
+
+}
+span {
+    
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    vertical-align: middle;
+}
+
+.div-general{
+    background-color: white;
+    border: 1px solid black;
+    margin: 20px 100px;
+    padding: 15px 15px 15px 15px;
+    line-height: 110%;
+
+    
+}
+p {
+    text-align: left;
+}
+.petitlogoherocorp {
+    size: 10ch;
+    width: 15%;
+}
+
+.grandlogoherocorp {
+        width: 250px;
+
+}
+
+.paragraphe-presentation {
+    background-color:#eeeeee;
+    padding: 35px 20px;
+    border-color: 1px solid black;
+    margin: 15px 80px 15px 80px;
+
+}
+.bas-de-page {
+    background-color:#eeeeee;
+    font-size: smaller;
+    padding: 30px 150px 80px 150px;
+    margin: 15px;
+
+}
+
+
