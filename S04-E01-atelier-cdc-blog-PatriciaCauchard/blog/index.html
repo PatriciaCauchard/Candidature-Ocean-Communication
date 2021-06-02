@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">A la dérive</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Teamback <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Teamfront</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Collaboration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Ma vie de dev</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="presentation d-flex flex-column justify-content-center">
+      <h1  class="d-flex justify-content-center">A la dérive</h1>
+      <p class="d-flex justify-content-center">Un blog collaboratif de développeurs web dérivant délibérément au milieu de
+        l'espace</p>
+    </div>
+  </header>
+  <main class="row" >
+
+    <div class="col-12 col-md-6">
+      <section class="container px-5">
+        <article class="articles__article">
+          <h2>Article title</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi inventore officiis, praesentium dolorum ex,
+            soluta mollitia molestiae eius consectetur incidunt similique! Quisquam numquam praesentium sapiente, veniam
+            odit molestiae aspernatur libero!</p>
+          <a href="">Meta info</a>
+        </article>
+        <article class="articles__article">
+          <h2>Article title</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non vero iure, itaque consequuntur harum quasi
+            possimus perferendis! Hic tempore est corrupti! Et odio unde asperiores harum voluptas saepe commodi
+            accusantium!</p>
+          <a href="">Meta info</a>
+        </article>
+        <article class="articles__article">
+          <h2>Article title</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente veritatis laboriosam totam cum, est,
+            explicabo beatae repellat cumque, at in recusandae quae provident architecto dolorum magni doloremque
+            laudantium animi possimus.</p>
+          <a href="">Meta info</a>
+        </article>
+        <article class="articles__article">
+          <h2>Article title</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae facere itaque, consectetur, quia nisi
+            enim aperiam iusto atque cum voluptatibus iste sapiente accusamus harum quo provident expedita, omnis
+            dignissimos distinctio!</p>
+          <a href="">Meta info</a>
+        </article>
+      </section>
+      <section class="articlesPages">
+        <ul class="pagination d-flex justify-content-between px-5">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      </ul>
+      </section>
+    </div>
+    <div class="col-12 col-md-4">
+      <section>
+        <form class="row d-flex justify-content-center" action="">
+          <input class="form-control col-6 m-2" type="text" placeholder="">
+          <button type="button" class="btn btn-primary btn-sm col-4 m-2">Search</button>
+        </form>
+      </section>
+      <section>
+
+        <div class="card container-fluid" style="width: 18rem;">
+          <div class="card-header text-center ">
+            Catégories
+          </div>
+          <ul class="list-group list-group-flush ">
+            <li class="list-group-item text-center ">Teamback</li>
+            <li class="list-group-item text-center ">Teamfront</li>
+            <li class="list-group-item text-center ">Collaboration</li>
+            <li class="list-group-item text-center ">Ma vie de dev</li>
+          </ul>
+        </div>
+        <div class="card container-fluid" style="width: 18rem;">
+          <div class="card-header text-center">
+            Auteurs
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-center">Maxime</li>
+            <li class="list-group-item text-center">Dario</li>
+            <li class="list-group-item text-center">Lucie</li>
+            <li class="list-group-item text-center">Anthony</li>
+          </ul>
+        </div>
+
+      </section>
+    </div>
+  </main>
+  <footer class="container-fluid">
+    <div class="social__network">
+      <a href=""></a>
+      <a href=""></a>
+      <a href=""></a>
+      <a href=""></a>
+    </div >
+    <nav class="d-flex flex-column d-sm-flex justify-content-around ">
+      <a href="">Contactez-nous</a>
+      <a href="">Qui sommes-nous ?</a>
+      <a href="">Mentions légales</a>
+    </nav>
+  </footer >
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
