@@ -1,0 +1,142 @@
+body {   
+     background-color: #2f3848;
+     font-family: Open Sans ;
+     width: 900px;
+     font-weight: bold;
+}
+
+.wrapper {
+    margin: 4rem;
+    position: relative;
+}
+
+.wrapper__intro--title{
+    background-color:#f05768;
+    color: white;
+    text-align: center;
+    border-bottom: solid 2px #add8e6;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+    padding: 0 0.3rem 0.5rem 0;
+    position: relative;
+}
+
+.wrapper__intro--link {
+     color: yellowgreen;
+     word-spacing: 1rem;
+     
+}
+
+.wrapper__intro--share{
+     list-style-type: none;
+     display: flex;
+     justify-content: flex-end;
+     align-items: flex-end;
+     
+}
+
+.wrapper__intro--share img {
+
+     width: 1.3rem;
+     height: 1.3rem;
+     position: absolute;
+     
+}
+
+.wrapper__intro--share-facebook {
+
+     top: 60px;
+     right: 1.3px;
+}
+.wrapper__intro--share-twitter {
+
+     top: 60px;
+     right: 25px;
+}
+
+
+.wrapper__intro--présentation {
+     color: #0295c6;
+     font-style: italic;
+}
+
+.wrapper__intro--text {
+     color: #fff;
+     font-size: smaller;
+
+}
+
+.wrapper__intro--text span {
+     color:yellowgreen;
+     text-decoration: underline;
+}
+
+.wrapper__intro--légende {
+     color: #fff;
+     background-color: #f05768;
+     display: inline-block;
+     padding: 0.2rem 0.3rem;
+     position: absolute;
+     position: right;
+     margin: 0;
+
+}
+
+.wrapper__intro--picture {
+     justify-content: center;
+     width: 100%;
+
+}
+
+.wrapper__gallery {
+    display: inline-block;
+    margin: 1rem 10rem 5rem 0rem;
+    justify-content: flex-start;
+
+}
+.wrapper__gallery--big {
+     width: 50%;
+}
+.wrapper__gallery--small {
+     width: 25%;
+     justify-content: flex-end
+     
+}
+
+.wrapper__contact {
+     color:#00ccff;
+     background-color: #004488;
+     display: inline-block;
+     width: 30%;
+     padding: 20px;
+     margin: 1rem 0rem;
+     position: absolute;
+     right: 0.2px;
+     width: 200px;
+     height: 300px;
+}
+
+.wrapper__contact--text {
+     color: yellowgreen;
+     font-size: smaller;
+}    
+
+.wrapper__contact--text a {
+     text-decoration: underline;
+     color: yellowgreen;
+}
+
+.wrapper__contact--subscribe {
+     color: yellowgreen;
+}
+
+.wrapper__intro {
+     position: relative;
+}
+
+.wrapper__end {
+     text-align: center;
+     color: #60b9ce;
+     font-size: 0.6rem;
+
+}
